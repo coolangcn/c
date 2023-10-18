@@ -51,33 +51,60 @@ proxy-groups:
   - name: 🍕 手动切换
     type: select
     proxies:
-      - 233boy-ws-z.cnn.gold
-      - 1.cnn.gold
+      - 188.cnn.gold
       - 2.cnn.gold
       - 3.cnn.gold
-      - w.cnn.gold
+      - 4.cnn.gold
+      - 5.cnn.gold
+      - 6.cnn.gold
+      - 7.cnn.gold
+      - 8.cnn.gold
+      - 9.cnn.gold
+      - 10.cnn.gold
+      - 11.cnn.gold
+      - 12.cnn.gold
+      - 13.cnn.gold
+      - 14.cnn.gold
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 233boy-ws-z.cnn.gold
-      - 1.cnn.gold
+      - 188.cnn.gold
       - 2.cnn.gold
       - 3.cnn.gold
-      - w.cnn.gold
+      - 4.cnn.gold
+      - 5.cnn.gold
+      - 6.cnn.gold
+      - 7.cnn.gold
+      - 8.cnn.gold
+      - 9.cnn.gold
+      - 10.cnn.gold
+      - 11.cnn.gold
+      - 12.cnn.gold
+      - 13.cnn.gold
+      - 14.cnn.gold
   - name: 💻 普通节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 233boy-ws-z.cnn.gold
-      - 1.cnn.gold
+      - 188.cnn.gold
       - 2.cnn.gold
       - 3.cnn.gold
-      - w.cnn.gold
+      - 4.cnn.gold
+      - 5.cnn.gold
+      - 6.cnn.gold
+      - 7.cnn.gold
+      - 8.cnn.gold
+      - 9.cnn.gold
+      - 10.cnn.gold
+      - 11.cnn.gold
+      - 12.cnn.gold
+      - 13.cnn.gold
+      - 14.cnn.gold 
   - name: 📺 省流节点
     type: url-test
     url: http://www.gstatic.com/generate_204
