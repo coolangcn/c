@@ -15,11 +15,12 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 233boy-ws-z.cnn.gold, server: 162.159.135.188, port: 443, client-fingerprint: chrome, type: vmess, uuid: c92ef5a7-f732-4787-ab15-a78ac978774e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: z.cnn.gold, network: ws, ws-opts: {path: /c92ef5a7-f732-4787-ab15-a78ac978774e, headers: {Host: z.cnn.gold}}}
-  - {name: 1.cnn.gold, server: 172.64.69.140, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: 1.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 1.cnn.gold}}}
-  - {name: 2.cnn.gold, server: 104.19.60.107, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: 1.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 1.cnn.gold}}}
-  - {name: 3.cnn.gold, server: 104.16.107.27, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: 1.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 1.cnn.gold}}}
-  - {name: w.cnn.gold, server: 172.64.111.183, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: 1.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 1.cnn.gold}}}
+  - {name: w.cnn.gold, server: 192.168.1.188, port: 1443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: tru
+  - {name: 233boy-ws-z.cnn.gold, server: 162.159.135.188, port: 443, client-fingerprint: chrome, type: vmess, uuid: c92ef5a7-f732-4787-ab15-a78ac978774e, a
+  - {name: 1.cnn.gold, server: 172.64.69.140, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true
+  - {name: 2.cnn.gold, server: 104.19.60.107, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true
+  - {name: 3.cnn.gold, server: 104.16.107.27, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true
+  - {name: w.cnn.gold 2, server: 172.64.111.183, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: t
 proxy-groups:
   - name: 🚀 节点选择
     type: select
