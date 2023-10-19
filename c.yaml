@@ -144,7 +144,7 @@ proxy-groups:
       - 288.cnn.gold
       - 299.cnn.gold
       - 2000.cnn.gold
-    - name: 💻 普通节点
+  - name: 💻 普通节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
