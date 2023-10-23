@@ -21,7 +21,8 @@ proxies:
     port: 17894 # 节点端口，目前暂不支持端口跳跃
     password: cncncncn # 节点认证密码
     sni: www.bing.com # 必应自签证书域名（www.bing.com）或 CA 证书域名
-    
+    skip-cert-verify: false
+
   - {name: 188.cnn.gold, server: 192.168.1.188, port: 1443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: 1.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 1.cnn.gold}}}
   - {name: 2.cnn.gold, server: 192.203.230.11, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: 2.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2.cnn.gold}}}
   - {name: 3.cnn.gold, server: 104.16.107.27, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: 1.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 1.cnn.gold}}}
