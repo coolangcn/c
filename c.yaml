@@ -82,7 +82,7 @@ proxy-groups:
   - name: 🍕 手动切换
     type: select
     proxies:
-     - 🇭🇰 香港 01 | ws
+      - 🇭🇰 香港 01 | ws
       - 🇭🇰 香港 04 | tcp
       - 🇨🇳 台湾 01 | ws
       - 🇨🇳 台湾 02 | ws
