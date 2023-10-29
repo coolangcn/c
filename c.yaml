@@ -15,13 +15,6 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: Hysteria2 # 节点名称
-    type: hysteria2
-    server: 165.154.57.231 # 服务器 IP
-    port: 17894 # 节点端口，目前暂不支持端口跳跃
-    password: cncncncn # 节点认证密码
-    sni: www.bing.com # 必应自签证书域名（www.bing.com）或 CA 证书域名
-    skip-cert-verify: false
 
   - {name: 188.cnn.gold, server: 104.19.139.196, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: 1.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 1.cnn.gold}}}
   - {name: 2.cnn.gold, server: 104.19.139.196, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: 2.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2.cnn.gold}}}
@@ -84,7 +77,6 @@ proxy-groups:
   - name: 🍕 手动切换
     type: select
     proxies:
-      - Hysteria2
       - 188.cnn.gold
       - 2.cnn.gold
       - 3.cnn.gold
@@ -125,7 +117,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - Hysteria2
       - 188.cnn.gold
       - 2.cnn.gold
       - 3.cnn.gold
