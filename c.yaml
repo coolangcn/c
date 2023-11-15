@@ -56,27 +56,16 @@ proxies:
   - {name: 211.cnn.gold,server: www.shopify.com, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: 11.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 11.cnn.gold}}}
   
   - {name: 255.cnn.gold,server: 104.17.31.49, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: w.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: w.cnn.gold}}}
-  - {name: 266.cnn.gold,server: 104.17.31.49, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: 22.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 22.cnn.gold}}}   
-  - {name: 277.cnn.gold,server: 172.64.32.100, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: 11.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 11.cnn.gold}}}
-  - {name: 288.cnn.gold,server: 185.146.173.20, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: 3.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 3.cnn.gold}}}
-  - {name: 299.cnn.gold,server: www.visa.com, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: 2.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 2.cnn.gold}}}  
-  - {name: 2000.cnn.gold,server: www.digitalocean.com, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: 1.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 1.cnn.gold}}}
+  - {name: us.cnn.gold,server: us-c.cnn.gold, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: us.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us.cnn.gold}}}   
+  - {name: kr.cnn.gold,server: kr-c.cnn.gold, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: kr.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: kr.cnn.gold}}}
+  - {name: tw.cnn.gold,server: tw-c.cnn.gold, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: tw.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tw.cnn.gold}}}
+  - {name: jp.cnn.gold,server: jp-c.cnn.gold, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: jp.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jp.cnn.gold}}}  
+  - {name: hk.cnn.gold,server: hk-c.cnn.gold, port: 443, client-fingerprint: randomized, type: vless, uuid: 7f2eeabd-f84a-4b09-8b09-bc15cd8f1998, tls: true, tfo: false, servername: hk.cnn.gold, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk.cnn.gold}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - 💻 普通节点
       - ♻️ 自动选择
-      - 📺 省流节点
-      - 👍 高级节点
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 新加坡节点
-      - 🇦🇷 阿根廷节点
-      - 🇹🇷 土耳其节点
-      - 🇯🇵 日本节点
-      - 🎥 流媒体解锁
       - 🍕 手动切换
       - DIRECT
   - name: 🍕 手动切换
@@ -117,11 +106,11 @@ proxy-groups:
       - 233.cnn.gold
       - 244.cnn.gold
       - 255.cnn.gold
-      - 266.cnn.gold
-      - 277.cnn.gold
-      - 288.cnn.gold
-      - 299.cnn.gold
-      - 2000.cnn.gold
+      - us.cnn.gold
+      - kr.cnn.gold
+      - tw.cnn.gold
+      - jp.cnn.gold
+      - hk.cnn.gold
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -157,11 +146,11 @@ proxy-groups:
       - 233.cnn.gold
       - 244.cnn.gold
       - 255.cnn.gold
-      - 266.cnn.gold
-      - 277.cnn.gold
-      - 288.cnn.gold
-      - 299.cnn.gold
-      - 2000.cnn.gold
+      - us.cnn.gold
+      - kr.cnn.gold
+      - tw.cnn.gold
+      - jp.cnn.gold
+      - hk.cnn.gold
   - name: 💻 普通节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -197,11 +186,11 @@ proxy-groups:
       - 233.cnn.gold
       - 244.cnn.gold
       - 255.cnn.gold
-      - 266.cnn.gold
-      - 277.cnn.gold
-      - 288.cnn.gold
-      - 299.cnn.gold
-      - 2000.cnn.gold 
+      - us.cnn.gold
+      - kr.cnn.gold
+      - tw.cnn.gold
+      - jp.cnn.gold
+      - hk.cnn.gold 
   - name: 📺 省流节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -2505,7 +2494,7 @@ rules:
   - IP-CIDR6,2a00:86c0:125::/48,🎞 NETFLIX,no-resolve
   - IP-CIDR6,2a00:86c0:126::/48,🎞 NETFLIX,no-resolve
   - IP-CIDR6,2a00:86c0:127::/48,🎞 NETFLIX,no-resolve
-  - IP-CIDR6,2a00:86c0:2000::/48,🎞 NETFLIX,no-resolve
+  - IP-CIDR6,2a00:86c0:hk::/48,🎞 NETFLIX,no-resolve
   - IP-CIDR6,2a00:86c0:2001::/48,🎞 NETFLIX,no-resolve
   - IP-CIDR6,2a00:86c0:2004::/48,🎞 NETFLIX,no-resolve
   - IP-CIDR6,2a00:86c0:2005::/48,🎞 NETFLIX,no-resolve
