@@ -2493,8 +2493,6 @@ rules:
   - IP-CIDR6,2a00:86c0:124::/48,🎞 NETFLIX,no-resolve
   - IP-CIDR6,2a00:86c0:125::/48,🎞 NETFLIX,no-resolve
   - IP-CIDR6,2a00:86c0:126::/48,🎞 NETFLIX,no-resolve
-  - IP-CIDR6,2a00:86c0:127::/48,🎞 NETFLIX,no-resolve
-  - IP-CIDR6,2a00:86c0:hk::/48,🎞 NETFLIX,no-resolve
   - IP-CIDR6,2a00:86c0:2001::/48,🎞 NETFLIX,no-resolve
   - IP-CIDR6,2a00:86c0:2004::/48,🎞 NETFLIX,no-resolve
   - IP-CIDR6,2a00:86c0:2005::/48,🎞 NETFLIX,no-resolve
